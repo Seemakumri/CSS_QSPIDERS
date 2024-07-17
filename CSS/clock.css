@@ -1,0 +1,181 @@
+*{
+    width: 0;
+    height: 0;
+    box-sizing: content-box;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(209, 178, 178);
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 614px;
+    left: 650px;
+}
+
+.line1{
+    width: 5px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    bottom: 780px;
+    left: 658px;
+    transform: all 10s ;
+    transform-origin: bottom;
+    
+}
+
+.line1:hover{
+    transform: rotate(130deg);
+}
+
+.line2{
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    bottom: 780px;
+    left: 660px;
+}
+.line3{
+    width: 2px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    bottom: 800px;
+    left: 660px;
+    
+}
+
+.six{
+    width: 30px;
+    height: 30px;
+    background-image: url(./6_3564211.png);
+    background-size: cover;
+    position: relative;
+    bottom: 154px;
+    left: 649px;
+    margin: 0 auto;
+}
+.one{
+    width: 30px;
+    height: 30px;
+    background-image: url(./number-1_91639.png);
+    background-size: cover;
+    position: relative;
+    bottom: 388px;
+    left: 750px;
+}
+
+.two{
+    width: 30px;
+    height: 30px;
+    background-image: url(./number-2_91617.png);
+    background-size: cover;
+    position: relative;
+    bottom: 361px;
+    left: 816px;
+}
+
+.three{
+    width: 30px;
+    height: 30px;
+    background-image: url(./numbre-3_91611.png);
+    background-size: cover;
+    position: relative;
+    bottom: 304px;
+    left: 829px;
+}
+
+.four{
+    width: 40px;
+    height: 40px;
+    background-image: url(./number-4_14358156.png);
+    background-size: cover;
+    position: relative;
+    bottom: 252px;
+    left: 819px;
+
+}
+
+.five{
+    width: 30px;
+    height: 30px;
+    background-image: url(./5_3564205.png);
+    background-size: cover;
+    position: relative;
+    bottom: 185px;
+    left: 751px;
+}
+
+.seven{
+    width: 30px;
+    height: 30px;
+    background-image: url(./7_3570115.png);
+    background-size: cover;
+    position: relative;
+    bottom: 242px;
+    left: 533px;
+}
+
+.eight{
+    width: 30px;
+    height: 30px;
+    background-image: url(./eight_13476716.png);
+    background-size: cover;
+    position: relative;
+    bottom: 357px;
+    left: 462px;
+}
+.nine{
+        width: 30px;
+        height: 30px;
+        background-image: url(./9_9080331.png);
+        background-size: cover;
+        position: relative;
+        bottom: 475px;
+        left: 430px;
+}
+
+.ten{
+    width: 30px;
+    height: 30px;
+    background-image: url(./ten_13476401.png);
+    background-size: cover;
+    position: relative;
+    bottom: 600px;
+    left: 461px;
+}
+
+.eleven{
+    width: 40px;
+    height: 50px;
+    background-image: url(./11_9398996.png);
+    background-size: cover;
+    position: relative;
+    bottom: 712px;
+    left: 542px;
+    z-index: 45;
+}
+
+.twelve{
+    width: 30px;
+    height: 30px;
+    background-image: url(./12_13476414.png);
+    background-size: cover;
+    position: relative;
+    bottom: 797px;
+    left: 650px;
+}

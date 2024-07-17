@@ -1,0 +1,46 @@
+section {
+  height: 500px;
+  width: 500px;
+  border: 10px solid blue;
+  border-radius: 0px;
+  /*background-color: bisque; */
+  /* background: linear-gradient(to right bottom, orange, white, green);*/
+  /*background: radial-gradient(  #ffa500 10%, pink 50%,  #ee82ee 70%);*/
+  /* background-image: conic-gradient(gray 90deg, green 90deg 270deg, yellow 270deg 360deg);*/
+  background-image: conic-gradient(
+    pink 45deg,
+    red 45deg 90deg,
+    violet 90deg 135deg,
+    yellow 135deg 180deg,
+    blue 180deg 200deg);
+  background-image: url(./books-8770940_1280.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+  text-align: center;
+  text-indent: 50px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  line-height: 80px;
+}
+
+section::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    
+    color: yellow;
+    background-color: pink;
+    text-shadow: 5px 10px 5px black;
+    text-align: center;
+    text-decoration-line: line-through;
+    text-decoration-color: lightblue;
+    text-decoration-style: wavy;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    
+}

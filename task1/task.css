@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.maincontainer {
+  width: 100%;
+  height: 800px;
+  border: 1px solid;
+  background: linear-gradient( pink, rgb(247, 194, 96), skyblue);
+}
+
+.nav {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  background: linear-gradient(pink, rgb(238, 7, 238), rgb(50, 50, 240));
+}
+a {
+  font-size: 20px;
+  padding: 20px;
+  text-shadow: 10px 10px 10px gray;
+  text-decoration: none;
+  position: relative;
+  left: 90px;
+  color: black;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.logo {
+  width: 100px;
+  height: 90px;
+  border-radius: 40px;
+  position: relative;
+  right: 1020px;
+  background-image: url(./logo1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px 10px 10px gray;
+}
+
+
+
+.search {
+  width: 200px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 40px;
+  position: relative;
+  top: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.search h1:hover {
+  color: aqua;
+}
+
+.srch {
+  width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    right: -13px;
+}
+
+i {
+  font-size: 25px;
+  position: relative;
+  bottom: -10px;
+  right: 20px;
+}
+i:hover {
+  color: aqua;
+  box-shadow: 10px 10px 10px rgb(65, 63, 63);
+}
+
+.search h1 {
+  margin-right: 50px;
+  padding: 7px;
+  font-size: 20px;
+}
+
+.section1 {
+  width: 650px;
+  height: 630px;
+  position: relative;
+  background: linear-gradient(rgb(247, 194, 96), pink);
+  top: 10px;
+  left: 37px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section1 h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  text-decoration-line: underline;
+  
+}
+
+.section1 p {
+  font-size: 25px;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
+}
+
+
+button {
+  width: 300px;
+  height: 50px;
+  border: 1px solid;
+  background-color: gray;
+  color: blue;
+  font-size: 20px;
+  border-radius: 50px;
+}
+button:hover {
+  color: aqua;
+  box-shadow: 20px 20px 20px rgb(121, 121, 126);
+}
+
+.section2 {
+  width: 650px;
+  height: 630px;
+  position: relative;
+  bottom: 620px;
+  left: 688px;
+  display: grid;
+  gap: 20px;
+  background: linear-gradient(rgb(247, 194, 96), pink);
+  grid-template-areas:
+    "box1 box2"
+    "box1 box4 "
+    "box3 box4";
+}
+.box1 {
+  grid-area: box1;
+  background-image: url("./robot-8815014_640.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box1:hover {
+  box-shadow: 0px 20px 20px rgb(58, 56, 56);
+  transform: scale(1.2);
+}
+
+.box2 {
+  grid-area: box2;
+  background-image: url(./laptop-5673901_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box2:hover {
+  box-shadow: 0px 20px 20px rgb(58, 56, 56);
+  transform: scale(1.2);
+}
+
+.box3 {
+  grid-area: box3;
+  background-image: url(./binary-code-7190628_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box3:hover {
+  box-shadow: 0px 20px 20px rgb(58, 56, 56);
+  transform: scale(1.2);
+}
+
+.box4 {
+  grid-area: box4;
+  background-image: url(./ai-generated-8668923_1920.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box4:hover {
+  box-shadow: 0px 20px 20px rgb(58, 56, 56);
+  transform: scale(1.2);
+}

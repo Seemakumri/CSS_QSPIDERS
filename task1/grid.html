@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       .maincontainer{
+            width: 800px;
+            height: 400px;
+            border: 2px solid gray;
+            display: grid;
+            grid-template-areas:  " box1 box2 box2 box3 box3"
+                                 " box1 box4 box5 box5 box6"
+                                " box7 box4 box5 box5 box6"
+                                " box7 box8 box8 box9 box6";
+            background-color: gray;
+            gap: 10px;
+            
+        }
+        
+        .box1{
+            grid-area: box1;
+            background-color: red;
+        }
+
+        .box2{
+            grid-area: box2;
+            background-color: aqua;
+        }
+        .box3{
+            grid-area: box3;
+            background-color: orange;
+        }
+        .box4{
+            grid-area: box4;
+            background-color: orange;
+        }
+        .box5{
+            grid-area: box5;
+            background-color: white;
+        }
+        .box6{
+            grid-area: box6;
+            background-color: red;
+        }
+        .box7{
+            grid-area: box7;
+            background-color: white;
+        }
+        .box8{
+            grid-area: box8;
+            background-color: red;
+        }
+        .box9{
+            grid-area: box9;
+            background-color: aqua;
+        }
+        
+        
+   </style>
+</head>
+<body>
+    <section class="maincontainer">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+    </section>
+</body>
+</html>

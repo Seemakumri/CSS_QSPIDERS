@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 0;
+    border: 1px solid;
+    
+}
+
+.box1{
+    width: 280px;
+    height: 690px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    left: -150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.cl{
+    width: 280px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    
+}
+.cl i{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 20px;
+    position: relative;
+    left: 270px;
+    top: 10px;
+    font-size: 20px;
+    background-color: rgb(86, 69, 240);
+}
+
+.cl i:hover{
+    background-color: gray;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 10px;
+   background-color: rgb(86, 69, 240);
+   position: relative;
+   top: 10px;
+}
+ .logo h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+ }
+
+.box{
+    width: 250px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box:hover{
+    background-color: rgb(86, 69, 240);
+}
+
+h2{
+    position: relative;
+}
+
+ .box i{
+    font-size: 30px;
+   margin-left: 20px;
+    position: relative;
+    top: 10px;
+    right: 30px;
+    
+ }
+.setting{
+    width: 280px;
+    height: 169px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logout{
+    width: 250px;
+    height: 65px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+   justify-content: space-around;
+}
+.logout i{
+    font-size: 30px;
+    margin-left: 20px;
+    position: relative;
+    top: 20px; 
+    right: 20px;
+}
+.logout h2{
+    text-align: center;
+    position: relative;
+    top: 20px;
+
+}
+
+.logout:hover{
+    background-color: rgb(86, 69, 240);
+}
+
+.on{
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+    
+}
+.on:hover{
+    background-color: gray;
+}
+.on i{
+    color: white;
+    position: relative;
+    left: -10px;
+    top: 10px;
+    left: -15px;
+    
+    
+}
+
+.box2{
+    width: 98px;
+    height: 690px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 360px;
+    position: relative;
+    bottom: 668px;
+    left: 360px;
+}
+
+.cl1{
+    width: 98px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo:hover{
+    background-color: gray;
+}
+
+.cl1 i:hover{
+    background-color: gray;
+}
+.logo1:hover{
+    background-color: gray;
+}
+
+
+.cl1 i{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 20px;
+    position: relative;
+    left: 90px;
+    top: 10px;
+    font-size: 20px;
+    background-color: rgb(86, 69, 240);
+}
+
+
+
+.logo1{
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(86, 69, 240);
+   position: relative;
+   right: 10px;
+   top: 10px;
+    
+}
+
+.logo1 h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+.text{
+    font-size: 20px;
+    padding: 30px;
+    position: relative;
+    right: 10px;
+}
+
+.short-box{
+    width: 80px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+}
+.short-box i{
+    font-size: 30px;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.short-box:hover{
+    background-color: rgb(86, 69, 240);
+}
+
+.short-setting{
+    width: 98px;
+    height: 169px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logout1{
+    width: 80px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.logout1 i{
+    font-size: 30px;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.logout1:hover{
+    background-color: rgb(86, 69, 240);
+}
+
+i{
+    color: white;
+}
+
+h2, h1{
+    color: white;
+}
+.cl{
+    background-color: black;
+}
+.logout{
+    background-color: black;
+}
+
+
+.box2 i{
+    color: white;
+}
+.box {
+    background-color: black;
+}
+
+.box2{
+    background-color: black;
+}

@@ -1,0 +1,48 @@
+@font-face{ /* we use font-face when you download the style of text, to use this put it into your folder 
+    font-face have two thing font-family= in font-family you can give any name   and src in give url and
+     give the same name of font-family in <p>*/
+    font-family: "myfont" ;
+    src: url()  ;
+}
+
+p{
+    /*for font these three properties are sufficent*/
+
+    font-size: 50px; /*here we can use our value, it is use change or increase the size of text*/
+    font-weight: bold; /*it is used to give boldness to text it give some wt we can use only predefined values given */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*it is use to change the style of text */
+    font-family: "Playwrite MX", cursive;  /* go to the google and search google font, then click first site, 
+    then select the font u want and there is option embedd code, then paste it into head section of html file,
+     then copy the css code and past it into css file.*/ 
+  
+}
+input{ /*outline = it is a line insie the border , it is a combination of o-style, o-color, o-width*/
+    /*outline-color: yellow;
+    outline-style: dotted;
+    outline-width: 20px; */
+    outline: 10px dotted yellow;
+    outline-offset: 10px; /* it is distance b/w our outline and border*/
+}
+ /*BOX MODEL = A css box model is essentialy a box which wraps around every html element.
+  (for all tags in html have box model, every html element follow box model including br tag)
+ inner box - content box = the box whixh have giving some heigth and width. (padding:)
+ it is short and to apply padding, in Short hand properties we have pass (TRBL), 
+ WHEN we pass two values , first value is for top & bottom , second value is for left-right,
+ when we pass 3 value (T ,L-R, B), FOR 4 values (TRBL), FOR 1 value that time the size will applicable for all the sides
+ second inner box - padding box = it is a internal space means the space b/w the border box and content box, 
+                    padding have 4 properties , padding - top, right, bottom ,left .
+ third inner box -border box = it the space b/w padding and margin, 
+ outter box - margin box = it is outside space means the space b/w border and external elment, margin is also have 4 values top, bottom, right, left 
+ 
+ border-radius accept have 4 value t-l, r-t, b-r, l-b , it work on clock wise */
+
+ section{
+    height: 50px;
+    width: 50px;
+ border: 1px solid;
+    border-top: 5px ;
+ }
+/*
+ box-sizzing =The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
+ box-sizzing is decide our box size in this html , by default it will take content-box,
+then we can increase or decrese the size of boxit has two option border-box,and content-box*/

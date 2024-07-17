@@ -1,0 +1,16 @@
+h1{
+  
+    
+}
+h2{
+    color: red;
+    text-align: center;
+    text-decoration: double;
+    text-transform: capitalize;
+    text-shadow: 0px 10px 0px yellow;
+    text-decoration-thickness: 0px;
+    letter-spacing: 10px;
+    text-decoration-line: line-through;
+    text-shadow: 10px 0px 10px blue;
+    
+}

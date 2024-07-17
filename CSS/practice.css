@@ -1,0 +1,87 @@
+.first{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px 0px 0px 10px;
+    margin: 20px;
+}
+
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 100px solid green;
+    margin: 20px;
+}
+
+.oval {
+    width: 150px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    margin: 20px;
+}
+
+.diamond {
+    width: 100px;
+    height: 100px;
+    background-color:  violet;
+    box-sizing: border-box;
+    position: relative;
+    margin: 20px;
+}
+
+
+.pentagon {
+        position: relative;
+        width: 100px;
+        border-bottom: 70px solid hsl(81, 77%, 65%);
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        height: 0;
+        margin: 50px 0;
+}
+
+.hexagon {
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 27.5px solid transparent;
+    border-top: 27.5px solid transparent;
+    background-color: fuchsia;
+    margin: 20px;
+    
+}
+
+.shape {
+    width: 150px;
+    height: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 100px solid indigo;
+    margin: 20px;
+}

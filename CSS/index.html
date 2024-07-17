@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #head1 {
+        color: aqua;
+        background-color: pink;
+      }
+      #head2 {
+        color: brown;
+        background-color: bisque;
+      }
+      #head {
+        color: aliceblue;
+        background-color: black;
+      }
+      *{
+        margin: 0;
+      }
+
+      h1,h2,section{
+        color: blueviolet;
+        background-color: yellowgreen;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <!-- rel =relation , in href we need to pass path of css file -->
+  </head>
+  <body>
+    <h1 style="color: blue; background-color: yellow">Seema Sharma</h1>
+    <h1 id="head1">Seema Sharma</h1>
+    <h2 class="head2">Banti Sharma</h2>
+    <section class="head3">Seema Sharma</section>
+    <h1 id="head" style="background-color: blue; color: brown;">Banti Sharma</h1>
+    
+    <!-- <h1 id="head" style="color: orange; background-color: aquamarine">Banti Sharma</h1> -->
+    
+    <!--when we write style in h1 tag we will take style attribute for styling the css , and it comes in inline css
+     forst priority always goes to inline css , 2nd priopeity will goes to internal ,for external css we use link tag
+     1st - inline,  2nd - internal , 3rd - external 
+     when we target , we use id, class then it comes in  syntax = selector { color: value; backgc : value; 
+     Types of selector =  
+     there are 5 types of selectors in css
+     1> Simple selector 
+     2> combinator selector
+     3> Attribute selector
+     4> Pseudo class selector
+     5> Pseudo element selector
+
+     1> Simple Selector = it have some selector 1. ID selector - for id we should prefer # for id after that give properties
+      , for uniqely target ,
+     2. class selector - it is for select multiple elment in html , we should prefer (.) for class after that gives properties
+     3. tag/ element selector - with the help of tag name will use tag selector h1 to h6 , it have no 
+     4. universal selector - in universal seletor whateven css we have write that properties will access the whole,
+     give the same styling for all html tag then use selector , it will apply all the tag than unversal selctor will apply
+     syntax= * { color :    ; } by deafult our webpage will take some unwanted space, if we want to remove that space 
+     we will use universal selector , 
+     5. grouping selector - if we want to target some html tags to give same css for style, and these tag have diff.-diff class name , then we wll use grouping selector 
+     like this h2,p,main{ color: value; backgcolor:value; }  . in grouping selector we have to seprate commas (,) 
+                                          }-->
+    
+  </body>
+</html>
